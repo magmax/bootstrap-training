@@ -21,16 +21,18 @@ Try to avoid tips. If you require them, select them with the mouse.
 
 .. raw:: html
 
-    <p>Tip: <span style="color: black; background-color: black">Start with a container-fluid class in the body or a new div object</span></p>
+    <p>Tip: <span style="color: black; background-color: black">
+    Tables should have the class 'table'. May be a nonsense, but it is required
+    in Bootstrap.
+    </span></p>
 
 
 .. raw:: html
 
-    <p>Tip: <span style="color: black; background-color: black">You can use the class "col" to avoid to select the specific sizes.</span></p>
+    <p>Tip: <span style="color: black; background-color: black">
+    To highlight a row, you must add a class to tr.
+    </span></p>
 
-
-.. _`source html code`: _static/01/source.html
-.. _`this result`: _static/01/result.html
 
 .. _`layout documentation`: https://getbootstrap.com/docs/4.0/layout/overview/
 .. _`grid documentation`: https://getbootstrap.com/docs/4.0/layout/grid/
