@@ -5,14 +5,14 @@ Required time: 1-2 hours
 
 Using this code:
 
-.. literalinclude :: static/01/source.html
+.. literalinclude :: _static/01/source.html
    :language: html
 
 Try to get this result:
 
 .. raw:: html
 
-    <iframe src="static/01/result.html" height="345px" width="100%"></iframe>
+    <iframe src="_static/01/result.html" height="345px" width="100%"></iframe>
 
 You can use the `layout documentation`_ and `grid documentation`_ when required. No other documentation pages should be required.
 
@@ -29,8 +29,8 @@ Try to avoid tips. If you require them, select them with the mouse.
     <p>Tip: <span style="color: black; background-color: black">You can use the class "col" to avoid to select the specific sizes.</span></p>
 
 
-.. _`source html code`: static/01/source.html
-.. _`this result`: static/01/result.html
+.. _`source html code`: _static/01/source.html
+.. _`this result`: _static/01/result.html
 
 .. _`layout documentation`: https://getbootstrap.com/docs/4.0/layout/overview/
 .. _`grid documentation`: https://getbootstrap.com/docs/4.0/layout/grid/
