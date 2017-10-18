@@ -20,6 +20,7 @@ Good luck!
    :caption: Contents:
 
    lesson01
+   lesson02
 
 
 .. _Bootstrap: https://getbootstrap.com
