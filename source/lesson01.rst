@@ -1,0 +1,36 @@
+Lesson 1: The grid
+==================
+
+Required time: 1-2 hours
+
+Using this code:
+
+.. literalinclude :: _static/01/source.html
+   :language: html
+
+Try to get this result:
+
+.. raw:: html
+
+    <iframe src="_static/01/result.html" height="345px" width="100%"></iframe>
+
+You can use the `layout documentation`_ and `grid documentation`_ when required. No other documentation pages should be required.
+
+Try to avoid tips. If you require them, select them with the mouse.
+
+
+.. raw:: html
+
+    <p>Tip: <span style="color: black; background-color: black">Start with a container-fluid class in the body or a new div object</span></p>
+
+
+.. raw:: html
+
+    <p>Tip: <span style="color: black; background-color: black">You can use the class "col" to avoid to select the specific sizes.</span></p>
+
+
+.. _`source html code`: _static/01/source.html
+.. _`this result`: _static/01/result.html
+
+.. _`layout documentation`: https://getbootstrap.com/docs/4.0/layout/overview/
+.. _`grid documentation`: https://getbootstrap.com/docs/4.0/layout/grid/
