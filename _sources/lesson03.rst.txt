@@ -14,7 +14,7 @@ Try to get this result:
 
     <iframe src="_static/03/result.html" height="345px" width="100%"></iframe>
 
-You can use the `layout documentation`_, `grid documentation`_ and `forms documentation`_ when required. No other documentation pages should be required. Well... maybe some about basic HTML.
+You can use the `forms documentation`_ when required. No other documentation pages should be required. Well... maybe some about basic HTML.
 
 Basic structure is already written. Just use ``class`` attributes. In one case, you may require additional tags for one of the controls; tip 3 shows you where.
 
@@ -40,6 +40,4 @@ Try to avoid tips. If you require them, select them with the mouse.
     You need some additional <span class="pre">div</span> to add the @ to the username control.
     </span></p>
 
-.. _`layout documentation`: https://getbootstrap.com/docs/4.0/layout/overview/
-.. _`grid documentation`: https://getbootstrap.com/docs/4.0/layout/grid/
 .. _`forms documentation`: https://getbootstrap.com/docs/4.0/components/forms/
