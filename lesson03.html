@@ -1,0 +1,230 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Lesson 3: Using forms &#8212; Bootstrap Training 1.0.0 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Lesson 2: Tables" href="lesson02.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="lesson-3-using-forms">
+<h1>Lesson 3: Using forms<a class="headerlink" href="#lesson-3-using-forms" title="Permalink to this headline">¶</a></h1>
+<p>Required time: 1-2 hours</p>
+<p>Using this code:</p>
+<div class="highlight-html"><div class="highlight"><pre><span></span><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&quot;en&quot;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+    <span class="c">&lt;!-- Required meta tags --&gt;</span>
+    <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&quot;utf-8&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;viewport&quot;</span> <span class="na">content</span><span class="o">=</span><span class="s">&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;</span><span class="p">&gt;</span>
+
+    <span class="c">&lt;!-- Bootstrap CSS --&gt;</span>
+    <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css&quot;</span> <span class="na">integrity</span><span class="o">=</span><span class="s">&quot;sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M&quot;</span> <span class="na">crossorigin</span><span class="o">=</span><span class="s">&quot;anonymous&quot;</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+ 
+		<span class="p">&lt;</span><span class="nt">form</span><span class="p">&gt;</span>
+			<span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+				<span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+					<span class="p">&lt;</span><span class="nt">label</span> <span class="na">for</span><span class="o">=</span><span class="s">&quot;username&quot;</span><span class="p">&gt;</span>Username<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+				  <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;username&quot;</span><span class="p">&gt;</span>
+				<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+				<span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+				  <span class="p">&lt;</span><span class="nt">label</span> <span class="na">for</span><span class="o">=</span><span class="s">&quot;firstname&quot;</span><span class="p">&gt;</span>First name<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+					<span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;firstname&quot;</span><span class="p">&gt;</span>
+				<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+				<span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+				  <span class="p">&lt;</span><span class="nt">label</span> <span class="na">for</span><span class="o">=</span><span class="s">&quot;lastname&quot;</span><span class="p">&gt;</span>Last name<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+					<span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;lastname&quot;</span><span class="p">&gt;</span>
+				<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+			<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+
+			<span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+				<span class="p">&lt;</span><span class="nt">label</span> <span class="na">for</span><span class="o">=</span><span class="s">&quot;exampleFormControlInput1&quot;</span><span class="p">&gt;</span>Email address<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+				<span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;email&quot;</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;exampleFormControlInput1&quot;</span><span class="p">&gt;</span>
+				<span class="p">&lt;</span><span class="nt">small</span><span class="p">&gt;</span>
+					The input will be validated as a valid email with awesome feedback.
+				<span class="p">&lt;/</span><span class="nt">small</span><span class="p">&gt;</span>
+			<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+			<span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+				<span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+					<span class="p">&lt;</span><span class="nt">label</span> <span class="na">for</span><span class="o">=</span><span class="s">&quot;validationCustom03&quot;</span><span class="p">&gt;</span>City<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+					<span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;validationCustom03&quot;</span><span class="p">&gt;</span>
+					<span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+						Please provide a valid city.
+					<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+				<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+				<span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+					<span class="p">&lt;</span><span class="nt">label</span> <span class="na">for</span><span class="o">=</span><span class="s">&quot;validationCustom04&quot;</span><span class="p">&gt;</span>State<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+					<span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;validationCustom04&quot;</span><span class="p">&gt;</span>
+					<span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+						Please provide a valid state.
+					<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+				<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+				<span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+					<span class="p">&lt;</span><span class="nt">label</span> <span class="na">for</span><span class="o">=</span><span class="s">&quot;validationCustom05&quot;</span><span class="p">&gt;</span>Zip<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+					<span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;validationCustom05&quot;</span><span class="p">&gt;</span>
+					<span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+						Please provide a valid zip.
+					<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+				<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+			<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+			<span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+				<span class="p">&lt;</span><span class="nt">label</span> <span class="na">for</span><span class="o">=</span><span class="s">&quot;exampleFormControlSelect1&quot;</span><span class="p">&gt;</span>Example select<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+				<span class="p">&lt;</span><span class="nt">select</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;exampleFormControlSelect1&quot;</span><span class="p">&gt;</span>
+					<span class="p">&lt;</span><span class="nt">option</span><span class="p">&gt;</span>1<span class="p">&lt;/</span><span class="nt">option</span><span class="p">&gt;</span>
+					<span class="p">&lt;</span><span class="nt">option</span><span class="p">&gt;</span>2<span class="p">&lt;/</span><span class="nt">option</span><span class="p">&gt;</span>
+					<span class="p">&lt;</span><span class="nt">option</span><span class="p">&gt;</span>3<span class="p">&lt;/</span><span class="nt">option</span><span class="p">&gt;</span>
+					<span class="p">&lt;</span><span class="nt">option</span><span class="p">&gt;</span>4<span class="p">&lt;/</span><span class="nt">option</span><span class="p">&gt;</span>
+					<span class="p">&lt;</span><span class="nt">option</span><span class="p">&gt;</span>5<span class="p">&lt;/</span><span class="nt">option</span><span class="p">&gt;</span>
+				<span class="p">&lt;/</span><span class="nt">select</span><span class="p">&gt;</span>
+			<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+			<span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+				<span class="p">&lt;</span><span class="nt">label</span> <span class="na">for</span><span class="o">=</span><span class="s">&quot;exampleFormControlSelect2&quot;</span><span class="p">&gt;</span>Example multiple select<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+				<span class="p">&lt;</span><span class="nt">select</span> <span class="na">multiple</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;exampleFormControlSelect2&quot;</span><span class="p">&gt;</span>
+					<span class="p">&lt;</span><span class="nt">option</span><span class="p">&gt;</span>1<span class="p">&lt;/</span><span class="nt">option</span><span class="p">&gt;</span>
+					<span class="p">&lt;</span><span class="nt">option</span><span class="p">&gt;</span>2<span class="p">&lt;/</span><span class="nt">option</span><span class="p">&gt;</span>
+					<span class="p">&lt;</span><span class="nt">option</span><span class="p">&gt;</span>3<span class="p">&lt;/</span><span class="nt">option</span><span class="p">&gt;</span>
+					<span class="p">&lt;</span><span class="nt">option</span><span class="p">&gt;</span>4<span class="p">&lt;/</span><span class="nt">option</span><span class="p">&gt;</span>
+					<span class="p">&lt;</span><span class="nt">option</span><span class="p">&gt;</span>5<span class="p">&lt;/</span><span class="nt">option</span><span class="p">&gt;</span>
+				<span class="p">&lt;/</span><span class="nt">select</span><span class="p">&gt;</span>
+			<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+			<span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+				<span class="p">&lt;</span><span class="nt">label</span> <span class="na">for</span><span class="o">=</span><span class="s">&quot;exampleFormControlTextarea1&quot;</span><span class="p">&gt;</span>Example textarea<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+				<span class="p">&lt;</span><span class="nt">textarea</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;exampleFormControlTextarea1&quot;</span> <span class="na">rows</span><span class="o">=</span><span class="s">&quot;3&quot;</span><span class="p">&gt;</span>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<span class="p">&lt;/</span><span class="nt">textarea</span><span class="p">&gt;</span>
+			<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+			<span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+				<span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+					<span class="p">&lt;</span><span class="nt">label</span><span class="p">&gt;</span>
+						<span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;inlineCheckbox1&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;option1&quot;</span><span class="p">&gt;</span> Selected as default
+					<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+				<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+				<span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+					<span class="p">&lt;</span><span class="nt">label</span><span class="p">&gt;</span>
+						<span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;inlineCheckbox2&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;option2&quot;</span><span class="p">&gt;</span> Not selected as default
+					<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+				<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+				<span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+					<span class="p">&lt;</span><span class="nt">label</span><span class="p">&gt;</span>
+						<span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;inlineCheckbox3&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;option3&quot;</span><span class="p">&gt;</span> You cannot select me
+					<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+				<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span> 
+			<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span> 
+			<span class="p">&lt;</span><span class="nt">button</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;submit&quot;</span><span class="p">&gt;</span>Sign in<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+		<span class="p">&lt;/</span><span class="nt">form</span><span class="p">&gt;</span>
+
+    <span class="c">&lt;!-- Optional JavaScript --&gt;</span>
+    <span class="c">&lt;!-- jQuery first, then Popper.js, then Bootstrap JS --&gt;</span>
+    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://code.jquery.com/jquery-3.2.1.slim.min.js&quot;</span> <span class="na">integrity</span><span class="o">=</span><span class="s">&quot;sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN&quot;</span> <span class="na">crossorigin</span><span class="o">=</span><span class="s">&quot;anonymous&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js&quot;</span> <span class="na">integrity</span><span class="o">=</span><span class="s">&quot;sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4&quot;</span> <span class="na">crossorigin</span><span class="o">=</span><span class="s">&quot;anonymous&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js&quot;</span> <span class="na">integrity</span><span class="o">=</span><span class="s">&quot;sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1&quot;</span> <span class="na">crossorigin</span><span class="o">=</span><span class="s">&quot;anonymous&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>Try to get this result:</p>
+<iframe src="_static/03/result.html" height="345px" width="100%"></iframe><p>You can use the <a class="reference external" href="https://getbootstrap.com/docs/4.0/layout/overview/">layout documentation</a>, <a class="reference external" href="https://getbootstrap.com/docs/4.0/layout/grid/">grid documentation</a> and <a class="reference external" href="https://getbootstrap.com/docs/4.0/components/forms/">forms documentation</a> when required. No other documentation pages should be required. Well… maybe some about basic HTML.</p>
+<p>Basic structure is already written. Just use <code class="docutils literal"><span class="pre">class</span></code> attributes.</p>
+<p>Try to avoid tips. If you require them, select them with the mouse.</p>
+<p>Tip: <span style="color: black; background-color: black">
+Start with basic architecture (<span class="pre">form-group</span> is your friend). Then move to the easier controls. Finally attack to more difficult controls.
+</span></p><p>Tip: <span style="color: black; background-color: black">
+Add <span class="pre">form-control</span> to all the controls. Maybe you will remove some of them later, but is a good way to start.
+</span></p></div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Bootstrap Training</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="lesson01.html">Lesson 1: The grid</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lesson02.html">Lesson 2: Tables</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Lesson 3: Using forms</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="lesson02.html" title="previous chapter">Lesson 2: Tables</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, Miguel Ángel García.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/lesson03.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
