@@ -21,6 +21,7 @@ Good luck!
 
    lesson01
    lesson02
+   lesson03
 
 
 .. _Bootstrap: https://getbootstrap.com
