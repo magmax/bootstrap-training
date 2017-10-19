@@ -24,7 +24,7 @@ Try to avoid tips. If you require them, select them with the mouse.
 .. raw:: html
 
     <p>Tip: <span style="color: black; background-color: black">
-    Start with basic architecture (<tt>form-group</tt> is your friend). Then move to the easier controls. Finally attack to more difficult controls.
+    Start with basic architecture (<b>form-group</b> is your friend). Then move to the easier controls. Finally attack to more difficult controls.
     </span></p>
 
 
